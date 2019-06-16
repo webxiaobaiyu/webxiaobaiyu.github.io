@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[use Markdown]]></title>
+    <url>%2F2019%2F06%2F16%2Fuse-Markdown%2F</url>
+    <content type="text"><![CDATA[markdown前言主题的弄得差不多了，不知道写点啥。也不会写博客，看了看那个 markdown，自己边写边练把，熟悉下基本语法 标题标题就不解释啥意思了，markdown 语法是根据“#”的多少来划分标题的，总共分 6 级，1 级标题字最大，6 级标题字最小。注意”#“和标题名字见要加个空格，上个图来看 段落段落的话没啥特殊的，就是段落换行至少两个空格然后回车进行换行，还是再来个图当然，直接隔一行也是一样的道理，上图 字体设置字体设置通过字体头和尾加 * 和 _ 来表示(符号一定要切英文输入法),上图 列表列表分有序和无序列表有序列表用数字后跟点来表示,例如：1.目录无续列表用*，加减号来表示一定记得数字符号后加空格 区块区块引用是在段落开头使用 &gt; 符号 ，然后后面紧跟一个空格符号区块是可以嵌套的，一个 &gt; 符号是最外层，两个 &gt; 符号是第一层嵌套，以此类推退 代码写代码的话分两种，一种是单行的一种是多行的，就 tab 上面那个，大写状态下按下就可以，大概是叫反引号把 ` 。 两头各一个反引号就是只能一行代码 多行代码块的是要两头各三个反引号来表示 链接和图片链接链接是中括号(链接名称)加括号(链接地址)，或者直接单个书名号（&lt;链接地址&gt;） 图片开头一个感叹号 ! 接着一个方括号，里面放上图片的替代文字接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 ‘title’ 属性的文字。 图片有些注意事项的：用本地路径的话，它引用的是为知笔记定义的相对路径（为知笔记本地安装目录），并非网络图片路径。所以你把内容复制到有道云之后是无法显示图片的，服务器之类的找不到图片，最好使用网上的图片地址，或者可以把图片上传到新浪图床. 后记 本文部分图片来自菜鸟教程 本文主要个人熟悉 markdown 基本语法 不对的地方，欢迎大佬指出]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>markdown基本语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F06%2F15%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
